@@ -27,7 +27,7 @@ This project is a multiuser chat application developed for the ICT3122 – Advan
 - Automatically ends when the last user leaves
 - Chat logs saved as `.txt` files and recorded in MySQL
 
- #Technical Requirements
+ Technical Requirements
 
 - GUI: Java Swing
 - Design Pattern: Observer (used for subscribe/unsubscribe)
@@ -37,7 +37,7 @@ This project is a multiuser chat application developed for the ICT3122 – Advan
   - Only one chat session active at a time
   - A user can only be in one chat at any time
 
- #Technologies Used
+ Technologies Used
 - Java SE
 - Java RMI
 - Java Swing
@@ -46,7 +46,7 @@ This project is a multiuser chat application developed for the ICT3122 – Advan
 - JDBC
 - Maven (for project management)
 
- #Setup Instructions
+ Setup Instructions
 
 1. Database Setup:
    - Import the provided MySQL schema.
@@ -58,4 +58,12 @@ This project is a multiuser chat application developed for the ICT3122 – Advan
 3. Run the Application:
    - Start the RMI server.
    - Launch the GUI client application.
+
+## Assumptions & Limitations
+- Only one admin is allowed in the system.
+- Only one chat can be active at a time.
+- No file or media sharing in chat — text only.
+- Profile pictures stored as paths/URLs.
+
+
 
