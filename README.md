@@ -1,6 +1,6 @@
 # Chat-Application
  Project Overview
-This project is a multiuser chat application developed for the ICT3122 – Advanced Programming Practicum course at the University of Ruhuna. The application facilitates real-time messaging between users and includes administrative controls for managing chats and users.
+This project is a multiuser chat application. The application facilitates real-time messaging between users and includes administrative controls for managing chats and users.
 
  Features
 
